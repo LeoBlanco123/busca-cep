@@ -4,7 +4,7 @@ var cors = require('cors')
 
 app.use(cors())
 const api = axios.create({
-    baseURL: "http://viacep.com.br/ws/"
+    baseURL: "https://viacep.com.br/ws/"
 })
 
 export default api;
